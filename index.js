@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", async (req, res) => {
   const msg = req.query.msg || "Hello from Roblox!";
-  const webhook = "https://discord.com/api/webhooks/1397128931567603742/ICteuf__9KOTzicVn7lysg7AFbe16q7o2lebabbArWxq-t9bHrfPCbbiVY3zLZTJI9xT";
+  const webhook = "https://discord.com/api/webhooks/1397128927222169690/RMNYuy4W6sY9jhQX6t7EJRhI1fpAI3iNIV88PnRToi7LKKm-drsTeiLQ1O8ZgJAfOl-J";
 
   try {
     const response = await fetch(webhook, {
